@@ -85,8 +85,9 @@
 /*Home section Styling*/
 
 .Home{
-    display: flex;
+    display:flex;
     background: url("home.jpg");
+    background-size:cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -282,6 +283,56 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/*Contact section stylling*/
+.contact{
+    background-color:#fff;
+}
+
+.contact .msg-cont .word{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    
+}
+.contact .title::after{
+    background:#fff;
+    content: "What I Provide";
+
+}
+
+.contact .msg-cont .text-area input{
+    width: 80%;
+    padding: 12px 20px;
+    font-size: large;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(51, 48, 48);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.user-msg{
+    width: 80%;
+    height: 80px;
+    padding:12px 20px;
+    font-size: large;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(51, 48, 48);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*send button styling*/
+.send-btn button{
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #222;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
 
 
 
